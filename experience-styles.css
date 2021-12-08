@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/houma.jpg') no-repeat bottom center ;
+  background: url('images/portland.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -73,8 +73,17 @@ header .profile-image {
   border: 3px solid white;
   transition: all .5s;
 }
-header .profile-image:hover {
-  transform: scale(1.35) rotate(360deg);
+header .experience{
+  border: solid black 15px;
+  background: yellow;
+}
+.experience-img{
+  border: solid black 2px;
+}
+.experience-listing{
+  color: #e2e2e2;
+  border: solid blue 4px;
+  background: grey;
 }
 .tag {
   background-color: #efefef;
@@ -86,7 +95,7 @@ header .profile-image:hover {
 }
 .location {
   background-color: #222;
-  color: white;
+  color: yellow;
 }
 .card {
   margin: 30px;
@@ -99,7 +108,7 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
-  border-color: #29FFF5;
+  border-color: #ff99ff;
 }
 
 ul.skills {
